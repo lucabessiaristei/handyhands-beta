@@ -1,0 +1,576 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link href="media/favicon.ico" rel="icon" type="image/x-icon" />
+    <title>Handy Hands</title>
+    <meta name="description" content="Description">
+    <meta name="author" content="Author">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/flickity.css" />
+    <link rel="stylesheet" media="all and (min-width: 1024px)" href="css/styles.css" />
+    <link rel="stylesheet" media="all and (max-width: 1024px)" href="css/styles_mobile.css" />
+
+</head>
+
+<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <div id="container">
+
+
+        <!-------- first column ------->
+
+        <div id="viewport_column" class="column">
+            <div id="menu_box">
+                <a href="index.html">
+                    <h1 id="ability_button" class="menu_button active">Abilità</h1>
+                </a>
+                <h1 id="project_button" class="menu_button">Progetto</h1>
+                <h1 id="story_button" class="menu_button">Storia</h1>
+                <h1 id="lang_button" class="menu_button">Deutsch</h1>
+                <h1 id="contacts_label" class="menu_button mobile">Contatti</h1>
+                <h1 id="supporters_label" class="menu_button mobile">Sostenitori</h1>
+                <h1 id="credits_label" class="menu_button mobile">Credits</h1>
+                <div id="nav-icon" class="mobile">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+            <div id="ham_menu" class="mobile off">
+                <p id="mability_button" class="ham_menu_button">Abilità</p>
+                <p id="mproject_button" class="ham_menu_button">Progetto</p>
+                <p id="mstory_button" class="ham_menu_button">Storia</p>
+                <p id="mlang_button" class="ham_menu_button">Deutsch</p>
+            </div>
+
+
+
+
+
+
+
+            <div id="viewport_box">
+
+
+
+                <!-------- profile tab ------->
+
+                <div id="profile_tab" class="tab">
+                    <div id="left_c">
+
+                        <div class="carousel" data-flickity='{ "cellAlign": "left", "wrapAround": "true", "selectedAttraction": 1, "friction": 1, "lazyLoad": 2 }'>
+                            <div class="carousel-cell"><img src="media/artigiani/kamrun/cover.jpg"></div>
+                            <div class="carousel-cell"><img src="media/artigiani/kamrun/01.jpg"></div>
+                            <div class="carousel-cell"><img src="media/artigiani/kamrun/02.jpg"></div>
+                            <div class="carousel-cell"><img src="media/artigiani/kamrun/03.jpg"></div>
+                        </div>
+                        <div id="slider_buttons">
+                            <div id="previous" class="slider_button">←</div>
+                            <div id="next" class="slider_button">→</div>
+                        </div>
+                        <h2 id="video_trigger">→ video</h2>
+
+                    </div>
+
+
+
+
+                    <div id="right_c">
+                        <h1>Kamrun Nahar</h1>
+                        <h2>Bangladesh > Bolzano</h2>
+                        <h2>Cuoca, sarta</h2>
+
+                        <div class="carousel mobile" data-flickity='{ "cellAlign": "left", "wrapAround": "true", "selectedAttraction": 1, "friction": 1, "lazyLoad": 2 }'>
+                            <div class="carousel-cell"><img src="media/artigiani/kamrun/cover.jpg"></div>
+                            <div class="carousel-cell"><img src="media/artigiani/kamrun/01.jpg"></div>
+                            <div class="carousel-cell"><img src="media/artigiani/kamrun/02.jpg"></div>
+                            <div class="carousel-cell"><img src="media/artigiani/kamrun/03.jpg"></div>
+                        </div>
+                        <div id="slider_buttons" class="mobile">
+                            <div id="mprevious" class="slider_button">←</div>
+                            <div id="mnext" class="slider_button">→</div>
+                        </div>
+                        <div id="video_canvas" class="off">
+                            <video id="video_profile" controls>
+                                <source src="media/artigiani/kamrun/video.mp4" type="video/mp4">
+                                Il tuo browser non supporta questo player.
+                            </video>
+                        </div>
+                        <div id="bio">
+                            <h2 class="bio_title">LA MIA STORIA</h2>
+                            <p class="bio_txt">Sono Kamrun e vengo dal Bangladesh. Sono nata e cresciuta a Dacca, la capitale, ma per l’università mi sono trasferita per quattro anni a Rajshahi, una città al nord del paese. Poi sono tornata a Dacca e ho sposato mio marito, abbiamo vissuto lì fino al 2008 quando ci siamo trasferiti in Italia. Viviamo a Bolzano da allora e abbiamo un figlio che è all’ultimo anno di liceo.</p>
+                            <h2 class="bio_title">il mio lavoro</h2>
+                            <p class="bio_txt">Mi piace cucinare e cucire. Ho imparato entrambe le cose quando ero bambina dalle donne della mia famiglia, mia mamma e mia nonna. Poi le ho messe in pratica quando sono andata a studiare fuori casa e vivevo con mia sorella. Eravamo noi a cucinare e spesso anche a cucire i nostri abiti. In Italia continuo a fare entrambe le cose. Non è facile a Bolzano trovare gli abiti della mia cultura e anche gli ingredienti per i nostri piatti tipici. Così creo gli abiti e cucino le ricette che più mi piacciono secondo la moda e la tradizione bengalese. Visto che è difficile trovare le materie prime compro la stoffa ancora da lavorare e, con altre donne, coltivo, qui a Bolzano, un orto con verdure tipiche del Bangladesh. Così, attraverso la pratica, mantengo forte la memoria del mio paese di origine e spero di farla conoscere agli italiani.</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+                <!-------- ability covers tab ------->
+
+                <div id="covers_tab" class="tab off">
+
+
+
+                    <div class="cover_card riparazioni azerbaigian brennero">
+                        <a href="akif.html">
+                            <img class="cover_img" src="media/artigiani/akif/cover.jpg">
+                            <div class="cover_label off">
+                                <a>
+                                    <h2>akif kishiyer</h2>
+                                </a>
+                                <p class="small_txt">azerbaigian</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="cover_card sartoria senegal laives">
+                        <a href="aziz.html">
+                            <img class="cover_img" src="media/artigiani/aziz/cover.jpg">
+                            <div class="cover_label off">
+                                <a>
+                                    <h2>aziz sene</h2>
+                                </a>
+                                <p class="small_txt">senegal</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="cover_card sartoria venezuela bolzano">
+                        <a href="devorah.html">
+                            <img class="cover_img" src="media/artigiani/devorah/cover.jpg">
+                            <div class="cover_label off">
+                                <a>
+                                    <h2>Devorah rojas</h2>
+                                </a>
+                                <p class="small_txt">venezuela</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="cover_card kenia musica bolzano">
+                        <a href="elvis.html">
+                            <img class="cover_img" src="media/artigiani/elvis/cover.jpg">
+                            <div class="cover_label off">
+                                <a>
+                                    <h2>elvis kakiti</h2>
+                                </a>
+                                <p class="small_txt">kenia</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="cover_card cucina sartoria bangladesh bolzano">
+                        <a href="kamrun.html">
+                            <img class="cover_img" src="media/artigiani/kamrun/cover.jpg">
+                            <div class="cover_label off">
+                                <a>
+                                    <h2>kamrun nahar</h2>
+                                </a>
+                                <p class="small_txt">bangladesh</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="cover_card ballo decorazione dominicana bolzano">
+                        <a href="ramona.html">
+                            <img class="cover_img" src="media/artigiani/ramona/cover.jpg">
+                            <div class="cover_label off">
+                                <a>
+                                    <h2>ramona rosario</h2>
+                                </a>
+                                <p class="small_txt">Rep. dominicana</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="cover_card pittura russia bolzano">
+                        <a href="tatiana.html">
+                            <img class="cover_img" src="media/artigiani/tatiana/cover.jpg">
+                            <div class="cover_label off">
+                                <a>
+                                    <h2>tatiana shekhanova</h2>
+                                </a>
+                                <p class="small_txt">russia</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="cover_card decorazione dominicana bolzano">
+                        <a href="zandra.html">
+                            <img class="cover_img" src="media/artigiani/zandra/cover.jpg">
+                            <div class="cover_label off">
+                                <a>
+                                    <h2>zandra moreta</h2>
+                                </a>
+                                <p class="small_txt">rep. dominicana</p>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+                <!-------- project tab ------->
+
+                <div id="project_tab" class="tab off">
+                    <h2>CHI SIAMO
+                    </h2>
+                    <h1>Il sito web Handy Hands contiene e ampia le riflessioni e i risultati del progetto iniziato nel 2018 grazie al sostegno dell’Ufficio Bilinguismo e Lingue Straniere della Ripartizione Cultura italiana - Provincia Autonoma di Bolzano – e proseguito nel 2019 e 2020 grazie al sostegno dei fondi europei FAMI (Fondo Asilo, Migrazione ed Integrazione). Presenta le storie e i lavori di otto persone con competenze manuali diverse, alcune provenienti da tradizioni lontane, altre apprendibili a ogni latitudine, legate al percorso formativo di ogni partecipante al progetto, ma non applicate nelle loro occupazioni attuali. L’obiettivo è rendere visibili e dare dignità a queste capacità ‘nascoste’ e, in futuro, poter fare lo stesso con altre persone custodi di nuovi saperi.
+                    </h1>
+                    <h2>COSA FACCIAMO
+                    </h2>
+                    <h1>I racconti e le immagini pubblicate giungono al termine di una serie di incontri che hanno esteso la tematica del gesto, affrontata già dalla prima edizione del progetto nel 2018, a tutte le attività che passano attraverso le mani cioè il lavoro, l’artigianato, l’arte, la musica.
+                        Il progetto è stato anche volto ad approfondire e migliorare l'uso della lingua italiana ai fini della presentazione di sé stessi, della propria storia e delle proprie capacità. L’ambiente domestico in cui si sono tenuti, in un momento pre-Covid, i primi incontri ha generato un ambiente protetto e familiare in cui la socializzazione e l’apprendimento hanno avuto caratteristiche informali. In questi momenti vi è stata una forte motivazione e un interesse personale a raccontarsi. Attraverso l’esercizio della produzione orale in lingua italiana abbiamo quindi raccolto le storie che poi sono state rese in forma scritta dai singoli partecipanti, affiancati poi da un momento di editing partecipato. Seguirà, nei prossimi mesi, l’implementazione sul sito web dei CV, che ulteriormente rafforzerà il passaggio alla lingua scritta la cui utilità può avere sbocchi anche lavorativi.
+                    </h1>
+                    <h2>qual è lo scopo
+                    </h2>
+                    <h1>La scelta di concentrarci sul racconto delle competenze manuali è dovuta al fatto che molte persone dal background migratorio limitano queste abilità alla sfera privata o le perdono del tutto quando, per necessità, si adattano a lavori che non sempre hanno a che fare con la loro formazione. Tuttavia queste competenze sono molto importanti, rientrano, infatti, nella definizione che la Convenzione UNESCO ha dato, nel 2003, del patrimonio culturale immateriale, cioè “le conoscenze, le tradizioni, il folclore, i costumi, le credenze e le lingue che sono parte integrante del patrimonio culturale di un luogo”. Un patrimonio che è stato messo a tutela perché “perché fondamentale nel mantenimento della diversità culturale di fronte alla globalizzazione, nel sostegno al dialogo interculturale e nell’incoraggiamento al rispetto reciproco dei diversi modi di vivere”. Anche noi siamo convinti che la custodia e la diffusione di queste pratiche sia necessaria all’integrazione e alla creazione di una società più inclusiva. Un’inclusività basata sulla curiosità di raccontare storie, assaggiare sapori, confrontarsi con tradizioni, culture, abiti e ritmi diversi.
+                    </h1>
+                </div>
+
+
+
+                <!-------- story tab ------->
+                <div id="story_tab" class="tab off">
+                    <h2>handy hands 2018
+                    </h2>
+                    <h1>
+                        Handy Hands nasce nel 2018 come serie di incontri di socializzazione e sperimentazione ideati da Claudia Polizzi e Stefano Riba in collaborazione con l’Associazione Donne Nissà e grazie al sostegno dell’Ufficio Bilinguismo e Lingue Straniere della Ripartizione Cultura italiana – Provincia Autonoma di Bolzano –. Durante quattro mesi di lavoro sei persone originarie di Bolzano e provincia, sei persone con background migratorio e una mediatrice hanno riflettuto e lavorato sul tema del gesto.
+                        <br><br>
+                        L’output finale del progetto del 2018 è un video sperimentale nel quale la luce radente del video realizzato elimina quasi del tutto il colore della pelle proprio a sottolineare l’universalità dei gesti e mettere sullo stesso piano migranti e autoctoni. Proprio perché sono le mani a ‘parlare’, non sono state inserite didascalie che spieghino i gesti presentati la cui lettura è, quindi, lasciata alla libera interpretazione dello spettatore. Il video è stato presentato in anteprima il 9 maggio 2019 nella Sala delle Sedute del Consiglio della Provincia autonoma di Bolzano durante la Festa dell’Europa. Le riprese e il montaggio sono di Martin Rattini.
+                    </h1>
+
+                    <video id="video_story" controls>
+                        <source src="media/story1.mp4" type="video/mp4">
+                        Il tuo browser non supporta questo player.
+                    </video>
+
+                    <h1>Una versione aggiornata del video è stata realizzata per la campagna provinciale di sensibilizzazione della Giornata Internazionale dei Migranti (18 dicembre 2019) ed è stata presentata sugli schermi dei treni e dei bus provinciali, nelle varie sedi della Provincia Autonoma di Bolzano, in alcuni musei (Museion, TreviLab, Museo Civico, Museo Archeologico, Museo Scienze Naturali), all'Ospedale San Maurizio di Bolzano, al Filmclub prima degli spettacoli e in tre scuole del capoluogo.</h1>
+
+                    <video id="video_story" controls>
+                        <source src="media/story2.mp4" type="video/mp4">
+                        Il tuo browser non supporta questo player.
+                    </video>
+
+                    <h1>
+                        Fin dal suo nome Handy Hands gioca con una ‘polifonia’ di significati. In inglese significa ‘mani pratiche’, abili nel fare qualcosa. Ma può anche significare ‘mani a portata di mano’, vicine nel caso servisse un aiuto. Se guardiamo al titolo da una prospettiva germanofona, è palese il riferimento del termine das Handy (il cellulare) con la parola hand, mano, il telefonino come prolungamento della mano. Non è però questa ibridazione tra tecnologia e uomo a interessarci, quanto piuttosto, al contrario, il fatto che le mani sono state i primi strumenti di comunicazione e lavoro. Le mani di Handy Hands raccontano quindi storie, azioni quotidiane, movimenti volontari o tic involontari, attività di svago o di lavoro.
+                    </h1>
+
+                </div>
+
+
+
+                <!-------- subscribe tab ------->
+                <div id="subscribe_tab" class="tab off">
+
+                    <h1>Se vuoi entrare a far parte del progetto scrivi una mail o contatta l’amministratore negli orari indicati sotto. Atui publintilis vid aut vercesilius. Quitesticaed aut ret; non te et pra mor hostesil unum, et grae ad cas hore tam horusqua re, quemo norunum publieniri faus oporterrae audellessimo hoste nox nique nore iam in supio, constidit, quit facies er iam Romner alis bon senatum serdit.</h1>
+
+                    <a class="big_link" href="mailto:info@handyhands.com">info@handyhands.com</a>
+
+                </div>
+
+
+
+                <!-------- contacts tab ------->
+
+                <div id="contacts_tab" class="tab off">
+                    <h2 class="desktop">ContattI</h2>
+                    <h1> Per informazioni e altro potete scriverci al seguente indirizzo: info@handyhands.it
+
+
+
+
+
+                    </h1>
+                </div>
+
+
+
+                <!-------- disclaimer tab ------->
+
+                <div id="disclaimer_tab" class="tab off">
+                    <h2>disclaimer</h2>
+                    <h1>Atui publintilis vid aut vercesilius. Quitesticaed aut ret; non te et pra mor hostesil unum, et grae ad cas hore tam horusqua re, quemo norunum publieniri faus oporterrae audellessimo hoste nox nique nore iam in supio, constidit, quit facies er iam Romner alis bon senatum serdit.</h1>
+                </div>
+
+
+
+                <!-------- supporters tab ------->
+
+                
+                <div id="supporters_tab" class="tab off">
+                    <h2 class="desktop">sostenitori</h2>
+                    <div class="logo_box">
+                        <a href="http://ec.europa.eu/index_it.htm" target="_blank"> <img class="supp_logo" src="media/loghi/unione-europea.png"> </a>
+                        <a href="http://www.interno.it" target="_blank"> <img class="supp_logo" src="media/loghi/logo-ministero-interno.jpg"> </a>
+                    </div>
+
+                    <p>
+                        Fondo Asilo, Migrazione e Integrazione 2014-2020
+                    </p>
+                    <p>
+                        Obiettivo Specifico 2. Integrazione / Migrazione legale - Obiettivo nazionale ON 2 - Integrazione - lett. h) Formazione civico linguistica - Piani regionali formazione linguistica 2018-2021.
+                    </p>
+                    <p>
+                        PROG-2494 “Apprendimento civico-linguistico e esperienze socio-territoriali per un reale percorso inclusivo”.
+                    </p>
+
+                    <div class="logo_box">
+                        <img class="supp_logo" src="media/loghi/provinciabz_logo.png">
+                    </div>
+
+                </div>
+
+
+
+                <!-------- credits tab ------->
+
+                <div id="credits_tab" class="tab off">
+                    <h2>PROGETTO A CURA DI</h2><a>Ufficio Bilinguismo e Lingue Straniere della Ripartizione Cultura italiana - Provincia Autonoma di Bolzano</a>
+                    <h2>CONCEPT</h2>
+                    <a>Claudia Polizzi e Stefano Riba</a>
+
+                    <h2>amministrazione</h2>
+                    <a>Ufficio Bilinguismo e Provincia Autonoma di Bolzano – Ripartizione cultura italiana</a>
+
+                    <h2>Video e foto</h2>
+                    <a>Andreas Trenker e Giulia Faccin</a>
+
+                    <h2>PROGRAMMAZIONE</h2>
+                    <a>Luca Bessi</a>
+
+                    <h2>DESIGN</h2>
+                    <a href="http://www.claudiapolizzi.com/">Claudia Polizzi</a>
+
+
+                </div>
+
+
+
+
+                <div id="bottom_links" class="mobile">
+                    <!---                    <div id="logo_bottom_wrap"><img src="media/loghi/handylogo.svg"></div> --->
+                    <div id="contacts_button" class="small_links">Contatti</div>
+                    <div id="disclaimer_button" class="small_links off">Responsabilità</div>
+                    <div id="supporters_button" class="small_links">Sostenitori</div>
+                    <div id="credits_button" class="small_links">Credits</div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-------- second column ------->
+
+        <div id="showcase_column" class="column desktop">
+
+            <div id="toggle_showcase_column">
+                <h1 id="toggle_showcase_button">→</h1>
+            </div>
+            <div id="showcase_container">
+
+
+
+                <div class="id_card">
+                    <div class="id_img" style="background-image: url(media/artigiani/akif/ID.jpg)" onclick="window.location='akif.html'"></div>
+                    <div class="id_info">
+                        <a href="akif.html">
+                            <h2>akif kishiyer</h2>
+                        </a>
+                        <p class="small_txt">
+                            Azerbaigian > Brennero
+                        </p>
+                        <p class="small_txt">
+                            Orologiaio
+                        </p>
+                    </div>
+                </div>
+                <div class="id_card">
+                    <div class="id_img" style="background-image: url(media/artigiani/aziz/ID.jpg)" onclick="window.location='aziz.html'"></div>
+                    <div class="id_info">
+                        <a href="aziz.html">
+                            <h2>aziz sene</h2>
+                        </a>
+                        <p class="small_txt">
+                            Senegal > Laives
+                        </p>
+                        <p class="small_txt">
+                            Sarto
+                        </p>
+                    </div>
+                </div>
+                <div class="id_card">
+                    <div class="id_img" style="background-image: url(media/artigiani/devorah/ID.jpg)" onclick="window.location='devorah.html'"></div>
+                    <div class="id_info">
+                        <a href="devorah.html">
+                            <h2>devorah rojas</h2>
+                        </a>
+                        <p class="small_txt">
+                            Venezuela > Bolzano
+                        </p>
+                        <p class="small_txt">
+                            Sarta
+                        </p>
+                    </div>
+                </div>
+                <div class="id_card">
+                    <div class="id_img" style="background-image: url(media/artigiani/elvis/ID.jpg)" onclick="window.location='elvis.html'"></div>
+                    <div class="id_info">
+                        <a href="elvis.html">
+                            <h2>elvis kakiti</h2>
+                        </a>
+                        <p class="small_txt">
+                            Kenia > Bolzano
+                        </p>
+                        <p class="small_txt">
+                            Musicista
+                        </p>
+                    </div>
+                </div>
+                <div class="id_card">
+                    <div class="id_img" style="background-image: url(media/artigiani/kamrun/ID.jpg)" onclick="window.location='kamrun.html'"></div>
+                    <div class="id_info">
+                        <a href="kamrun.html">
+                            <h2>Kamrun Nahar</h2>
+                        </a>
+                        <p class="small_txt">
+                            Bangladesh > Bolzano
+                        </p>
+                        <p class="small_txt">
+                            Cuoca, sarta
+                        </p>
+                    </div>
+                </div>
+                <div class="id_card">
+                    <div class="id_img" style="background-image: url(media/artigiani/ramona/ID.jpg)" onclick="window.location='ramona.html'"></div>
+                    <div class="id_info">
+                        <a href="ramona.html">
+                            <h2>ramona rosario</h2>
+                        </a>
+                        <p class="small_txt">
+                            Rep. Dominicana > Bolzano
+                        </p>
+                        <p class="small_txt">
+                            Ballerina, decoratrice
+                        </p>
+                    </div>
+                </div>
+                <div class="id_card">
+                    <div class="id_img" style="background-image: url(media/artigiani/tatiana/ID.jpg)" onclick="window.location='tatiana.html'"></div>
+                    <div class="id_info">
+                        <a href="tatiana.html">
+                            <h2>tatiana shekhanova</h2>
+                        </a>
+                        <p class="small_txt">
+                            Russia > Bolzano
+                        </p>
+                        <p class="small_txt">
+                            Pittrice
+                        </p>
+                    </div>
+                </div>
+
+                <div class="id_card">
+                    <div class="id_img" style="background-image: url(media/artigiani/zandra/ID.jpg)" onclick="window.location='zandra.html'"></div>
+                    <div class="id_info">
+                        <a href="zandra.html">
+                            <h2>zandra moreta</h2>
+                        </a>
+                        <p class="small_txt">
+                            Rep. Dominicana > Bolzano
+                        </p>
+                        <p class="small_txt">
+                            Decoratrice
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-------- third column ------->
+
+        <div id="search_column" class="column desktop">
+            <div id="search_container">
+                <h2>abilità</h2>
+                <div class="custom-select ability_filter">
+                    <select>
+                        <option value="0">&nbsp;</option>
+                        <option value="1">Musica</option>
+                        <option value="2">Riparazioni</option>
+                        <option value="2">Cucina</option>
+                        <option value="3">Ballo</option>
+                        <option value="4">Decorazione</option>
+                        <option value="5">Pittura</option>
+                        <option value="6">Sartoria</option>
+                        <option value="7">Tutte</option>
+                    </select>
+                </div>
+                <h2>provenienza</h2>
+                <div class="custom-select origin_filter">
+                    <select>
+                        <option value="0">&nbsp;</option>
+                        <option value="1">Bangladesh</option>
+                        <option value="2">Azerbaigian</option>
+                        <option value="2">Venezuela</option>
+                        <option value="3">Kenia</option>
+                        <option value="4">Rep. Dominicana</option>
+                        <option value="5">Russia</option>
+                        <option value="5">Senegal</option>
+                        <option value="6">Tutte</option>
+                    </select>
+                </div>
+                <h2>città</h2>
+                <div class="custom-select city_filter">
+                    <select>
+                        <option value="0">&nbsp;</option>
+                        <option value="1">Bolzano</option>
+
+                        <option value="3">Brennero</option>
+                        <option value="4">Laives</option>
+                        <option value="5">Tutte</option>
+
+                    </select>
+                </div>
+                <h2 id="search_button">CERCA →</h2>
+            </div>
+
+            <div id="bottom_links">
+                <img src="media/loghi/handylogo.svg">
+                <div id="contacts_button" class="small_links">Contatti</div>
+                <div id="disclaimer_button" class="small_links off">Responsabilità</div>
+                <div id="supporters_button" class="small_links">Sostenitori</div>
+                <div id="credits_button" class="small_links">Credits</div>
+            </div>
+        </div>
+
+        <!-------- deutsch construction alert ------->
+        <div id="construction_canvas" class="off">
+            <h1>
+                Wir stellen in diesen Tagen die deutsche Version<br>
+                fertig und wird bald online sein.<br>
+                Wir entschuldigen uns für die Unannehmlichkeiten.
+            </h1>
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <script src="js/flickity.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/showcase-toggle-profile.js"></script>
+</body>
+
+</html>
